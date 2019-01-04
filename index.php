@@ -13,15 +13,15 @@
     Duchich
   </header>
   <div class="content">
-	<p class="slogan first_line">No name,</p>
-	<p class="slogan second_line">no body.</p>
+    <p class="slogan first_line">No name,</p>
+    <p class="slogan second_line">no body.</p>
   </div>
   <footer>
     <div class="contacts">
-	  <div class="icon"><a href="https://github.com/duchichchan" target="_blank"><img src="/res/github.svg" class="icon-img" alt="Github"/></a></div>
-	  <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" class="icon-img" alt="Telegram"/></a></div>
-	  <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" class="icon-img" alt="VK"/></a></div>
-	</div>
+      <div class="icon"><a href="https://github.com/duchichchan" target="_blank"><img src="/res/github.svg" class="icon-img" alt="Github"/></a></div>
+      <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" class="icon-img" alt="Telegram"/></a></div>
+      <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" class="icon-img" alt="VK"/></a></div>
+    </div>
     <div class="year"><?= date('Y').PHP_EOL ?></div>
   </footer>
 <!-- Yandex.Metrika counter -->
