@@ -18,9 +18,9 @@
   </div>
   <footer>
     <div class="contacts">
-	  <div class="icon"><a href="https://github.com/duchichchan" target="_blank"><img src="/res/github.svg" width="100%" height="100%" alt="Github"/></a></div>
-	  <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" width="100%" height="100%" alt="Telegram"/></a></div>
-	  <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" width="100%" height="100%" alt="VK"/></a></div>
+	  <div class="icon"><a href="https://github.com/duchichchan" target="_blank"><img src="/res/github.svg" class="icon-img" alt="Github"/></a></div>
+	  <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" class="icon-img" alt="Telegram"/></a></div>
+	  <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" class="icon-img" alt="VK"/></a></div>
 	</div>
     <div class="year"><?= date('Y').PHP_EOL ?></div>
   </footer>

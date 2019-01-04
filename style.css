@@ -45,6 +45,10 @@ footer {
   margin: 5px;
   width: 3%;
 }
+.icon-img {
+  width: 100%;
+  height: 100%;  
+}
 .first_line {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
