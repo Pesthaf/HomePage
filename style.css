@@ -1,0 +1,105 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  background-color: #000000;
+  color: #ffffff;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header {
+  font-weight: bold;
+  text-align: center;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+  width: 250px;
+  margin: 0 auto;
+}
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.slogan {
+  font-family: 'Charm', cursive;
+  font-size: 60px;
+  margin: 0 0;
+}
+.first_line {
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  animaton-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-timing-function: easy; 
+  -webkit-animation-timing-function: easy;
+  text-aling: left;
+  /*padding-left: 40%;*/  
+}
+
+.second_line {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-timing-function: easy;
+  -webkit-animation-timing-function: easy;
+  text-align: right;
+  /*padding-right: 40%;*/
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-25%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }   
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(25%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/*@media only screen and (max-width: 600px) {
+  .first_line {
+    padding-left: 10%;
+  }
+
+  .second_line {
+    padding-right: 10%;
+  }	
+}
+
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+  .first_line {
+    padding-left: 30%;
+  }
+
+  .second_line {
+    padding-right: 30%;
+  }
+} */
