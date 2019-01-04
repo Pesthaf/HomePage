@@ -17,7 +17,12 @@
 	<p class="slogan second_line">no body.</p>
   </div>
   <footer>
-    <?= date('Y').PHP_EOL ?>
+    <div class="contacts">
+	  <div class="icon"><a href="https://github.com/duchichchan" target="_blank"><img src="/res/github.svg" class="icon-img" alt="Github"/></a></div>
+	  <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" class="icon-img" alt="Telegram"/></a></div>
+	  <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" class="icon-img" alt="VK"/></a></div>
+	</div>
+    <div class="year"><?= date('Y').PHP_EOL ?></div>
   </footer>
 <!-- Yandex.Metrika counter -->
 <noscript><div><img src="https://mc.yandex.ru/watch/51709358" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
