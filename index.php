@@ -6,6 +6,7 @@
   <title>Duchich - about me</title>
   <link href="https://fonts.googleapis.com/css?family=Charm|Roboto" rel="stylesheet">
   <link href="/style.css" rel="stylesheet">
+  <link href="/res/favicon.ico" rel="shortcut icon">
   <script src="/scripts.js"></script>
 </head>
 <body>
