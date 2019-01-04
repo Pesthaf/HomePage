@@ -22,11 +22,10 @@
       <div class="icon"><a href="tg://resolve?domain=duchich_chan"><img src="/res/telegram.svg" class="icon-img" alt="Telegram"/></a></div>
       <div class="icon"><a href="https://vk.com/poolwhirl" target="_blank"><img src="/res/vk.svg" class="icon-img" alt="VK"/></a></div>
     </div>
-    <div class="year"><?= date('Y').PHP_EOL ?></div>
+	<div class="counter"><?php require_once './lib/counter.php' ?> visitors of today</div>
   </footer>
 <!-- Yandex.Metrika counter -->
 <noscript><div><img src="https://mc.yandex.ru/watch/51709358" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
 </html>
-<?php require_once './lib/counter.php' ?>
