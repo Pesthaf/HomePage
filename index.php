@@ -29,3 +29,4 @@
 <!-- /Yandex.Metrika counter -->
 </body>
 </html>
+<?php require_once './lib/counter.php' ?>
